@@ -1,0 +1,44 @@
+body{ margin:0; height:100%} 
+html{ height:100%} /*兼容firefox的div高度100%*/ 
+#left{ position:absolute; top:0; left:0; width:200px; height:100%; background-color:#CCCCCC} 
+#right{ margin-left:200px; height:100%; background-color:#0099FF} 
+
+img{
+	
+}
+#header{
+	background-color: #ccc;
+}
+.clearfix {
+	 zoom: 1; 
+	}
+
+.clearfix:after {
+	 visibility: hidden;
+	  display: block; 
+	  font-size: 0; 
+	  content: " "; 
+	  clear: both; 
+	  height: 0; 
+	}
+
+.conter{
+	text-align: center;
+		content: ”;
+		display: block;
+		clear: both;
+}
+.col-4,.col-6{
+	padding: 0;
+    float: left;
+}
+
+.col-6 {
+    width: 50%;
+}
+.col-4 {
+    width: 33.333%;
+}
+#content>div {
+	padding-top: 100px;
+}
